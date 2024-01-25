@@ -61,12 +61,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #475F45;
+    color: var(--Primary, #475F45);
 }
 @media screen  and (max-width: 926px){
-    .nav__link, .nav__link--button{
-        display: none;
-    }
+
     .nav__content2{
         align-items: center;
         padding-left: 20px;
@@ -79,8 +77,8 @@
         gap: 5px;
     }
     .nav__content1--img{
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .nav__content1--img2{
         width: 100%;
@@ -93,8 +91,90 @@
         font-size: 12px;
     }
 }
-@media screen  and (min-width: 921px){
+
+.nav__link--button:active{
+    background-color: rgba(126, 125, 125, 0.199);
+}
+.main{
+    display: flex;
+    max-width: 1440px;
+    flex-direction: column;
+    align-items: center;
+}
+.main__allwrep{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+.font-57{
+    font-size: 57px;
+}
+.main__txtcont{
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main__burrob{
+    width: 185px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__burrob--green{
+    background-color: #475F45;
+    color: #ffffff;
+    border: none;
+}
+.main__buttoncont{
+    display: flex;
+    gap: 16px;
+}
+.nav__meniu{
+    display: flex;
+}
+@media screen  and (max-width: 1028px){
+    .main__allwrep{
+        justify-content: center;
+        gap: 60px;
+    }
+    .font-57{
+        text-align: center;
+        font-size: 45px;
+    }
+    .nav__content2{
+        display: none;
+    }
+    .main__buttoncont{
+        justify-content: center;
+    }
+    .text-center{
+        text-align: center;
+    }
+}
+@media screen  and (min-width: 1028px){
     .nav__meniu{
         display: none;
+    }
+}
+@media screen  and (max-width: 560px){
+    .main__txtimg{
+        width: 254.031px;
+        height: 356.954px;
+    }
+    .main__txtimg--img{
+        width: 100%;
+    }
+    .main__txtcont{
+        width: 316px;
+    }
+    .main__burrob{
+        width: 165px;
+        height: 46px;
     }
 }
