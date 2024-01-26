@@ -138,6 +138,12 @@
 .nav__meniu{
     display: flex;
 }
+.font-45{
+    font-size: 45px;
+}
+.main__buttoncont2{
+    display: flex;
+}
 @media screen  and (max-width: 1028px){
     .main__allwrep{
         justify-content: center;
@@ -179,5 +185,14 @@
     }
     .font-57{
         font-size: 34px;
+    }
+    .font-45{
+        text-align: center;
+    }
+    .main__buttoncont2{
+        justify-content: center;
+    }
+    .font-23{
+        text-align: center;
     }
 }
