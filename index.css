@@ -144,6 +144,44 @@
 .main__buttoncont2{
     display: flex;
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440;
+    width: 100%;
+    background-color: #475F45;
+    min-height: 430px;
+    color: #ffffff;
+    align-items: center;
+}
+.footer__copyraite{
+    max-width: 1440px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Header-text, #343D33);
+    color: #ffffff;
+    width: 100%;
+}
+.footer__logo{
+    width: 48px;
+    height: 48px;
+}
+.footer__txtcont{
+    display: flex;
+    flex: 1;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__logocont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+    min-height: 200px;
+}
 @media screen  and (max-width: 1028px){
     .main__allwrep{
         justify-content: center;
