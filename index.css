@@ -319,7 +319,8 @@
     }
     .main__sitingarea{
         max-width: 345px;
-        
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .main__imigwrep{
         max-width: 345px;
