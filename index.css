@@ -63,34 +63,6 @@
     align-items: center;
     color: var(--Primary, #475F45);
 }
-@media screen  and (max-width: 926px){
-
-    .nav__content2{
-        align-items: center;
-        padding-left: 20px;
-    }
-    .nav__wrep{
-        width: 92%;
-    }
-    .nav__content1{
-        width: 240px;
-        gap: 5px;
-    }
-    .nav__content1--img{
-        width: 40px;
-        height: 40px;
-    }
-    .nav__content1--img2{
-        width: 100%;
-        height: 100%;
-    }
-    .font-23{
-        font-size: 20px;
-    }
-    .font-15{
-        font-size: 12px;
-    }
-}
 
 .nav__link--button:active{
     background-color: rgba(126, 125, 125, 0.199);
@@ -174,6 +146,7 @@
     max-width: 1200px;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 .footer__logocont{
     display: flex;
@@ -181,6 +154,19 @@
     gap: 16px;
     max-width: 300px;
     min-height: 200px;
+}
+.footer__txttable{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__table{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.height-200{
+    height: 200px;
 }
 @media screen  and (max-width: 1028px){
     .main__allwrep{
@@ -200,13 +186,16 @@
     .text-center{
         text-align: center;
     }
+    .nav__content1,.footer__logocont{
+        max-width: 220px;
+    }
 }
 @media screen  and (min-width: 1028px){
     .nav__meniu{
         display: none;
     }
 }
-@media screen  and (max-width: 560px){
+@media screen  and (max-width: 580px){
     .main__txtimg{
         width: 254.031px;
         height: 356.954px;
@@ -232,5 +221,49 @@
     }
     .font-23{
         text-align: center;
+    }
+    .footer__txtcont{
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer__logocont{
+        text-align: center;
+    }
+    .footer__txttable{
+        text-align: center;
+    }
+    .height-200{
+        height: 65px;
+    }
+
+}
+@media screen  and (max-width: 926px){
+
+    .nav__content2{
+        align-items: center;
+        padding-left: 20px;
+    }
+    .nav__wrep{
+        width: 92%;
+    }
+    .nav__content1{
+        width: 240px;
+        gap: 5px;
+    }
+    .nav__content1--img{
+        width: 40px;
+        height: 40px;
+    }
+    .nav__content1--img2{
+        width: 100%;
+        height: 100%;
+    }
+    .font-23{
+        font-size: 20px;
+    }
+    .font-15{
+        font-size: 12px;
     }
 }
