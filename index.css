@@ -4,6 +4,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.allwrep{
+    display: flex;
+    justify-content: center;
+}
 .all{
     display: flex;
     flex-direction: column;
@@ -183,6 +187,7 @@
 .main__sitingarea--img{
     width: 100%;
 }
+/* NewsUpdates */
 .NewsUpdates{
     display: flex;
     max-width: 1400px;
@@ -208,6 +213,7 @@
     max-width: 520px;
     max-height: 333px;
 }
+/* blogcont */
 .blogcont{
     display: flex;
     flex-direction: column;
