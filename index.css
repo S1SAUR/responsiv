@@ -334,7 +334,7 @@
         max-width: 1028px;
     }
     .NewsUpdates__img{
-        max-width: 392px;
+        max-width: 370px;
         max-height: 251px;
     }
     .NewsUpdates{
@@ -432,10 +432,8 @@
         max-width: 360px;
     }
     .NewsUpdates{
-        gap: 20px;
-    }
-    .NewsUpdates{
         justify-content: center;
+        gap: 20px;
     }
     .NewsUpdates__wraps1{
         margin-left: 5px;
